@@ -2,112 +2,259 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Prakhar Kumar Singh - Portfolio</title>
+  <meta content="Portfolio of Prakhar Kumar Singh - Machine Learning Engineer specializing in Pharmacovigilance, Clinical NLP, and Automation" name="description" />
+  <meta content="Machine Learning, Pharmacovigilance, NLP, AWS Bedrock, Claude Sonnet, Streamlit, Python" name="keywords" />
+  <link href="assets/img/favicon.png" rel="icon" />
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,700|Poppins:300,400,500,600,700" rel="stylesheet" />
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <style>
+    /* Custom styling for circular profile photo with shadow and border */
+    .profile-photo-container {
+      display: inline-block;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(25, 60, 145, 0.14);
+      border: 4px solid #195091;
+      width: 180px;
+      height: 180px;
+      margin-bottom: 20px;
+    }
 
-  <title>Portfolio Details - Personal Bootstrap Template</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    .profile-photo-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    /* Social links spaced nicely */
+    .social-links a {
+      margin: 0 8px;
+      font-size: 24px;
+      color: #195091;
+      transition: color 0.3s ease;
+    }
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    .social-links a:hover {
+      color: #0d2e60;
+    }
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    /* Card style for project summary */
+    .project-card {
+      border-radius: 18px;
+      border: none;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 15px rgb(25 60 145 / 10%);
+      padding: 24px;
+      background: #fff;
+    }
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: MyResume - v4.7.0
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    /* General section padding and spacing */
+    section {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  </style>
 </head>
 
 <body>
+  <header id="header" class="d-flex flex-column justify-content-center">
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#project" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Featured Project</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100" style="text-align:center;">
+      <h1>Prakhar Kumar Singh</h1>
+      <p>I'm <span class="typed" data-typed-items="Machine Learning Engineer, NLP Specialist, Pharmacovigilance Automation"></span></p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/prakhar._singh/" class="instagram" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/prakhar-kumar-singh-b3304a20a" class="linkedin" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/sarvesh172000" class="github" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+        <a href="mailto:prakharsinghpersonal@gmail.com" class="email" aria-label="Email"><i class="bx bx-envelope"></i></a>
+      </div>
+    </div>
+  </section>
 
   <main id="main">
-
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
+    <!-- ======= About Section with Creative Photo Placement ======= -->
+    <section id="about" class="about" style="background: #f8f9fa;">
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-4 text-center">
+            <div class="profile-photo-container">
+              <img src="assets/img/profile.jpeg" alt="Prakhar Kumar Singh Profile Photo" />
+            </div>
+            <h2 style="margin-top: 18px; font-weight:700; color:#193c91;">Prakhar Kumar Singh</h2>
+            <h5 style="color:#6c757d;">Machine Learning Engineer • NLP Specialist • Pharmacovigilance Automation</h5>
+            <div class="social-links" style="margin-top:12px;">
+              <a href="https://www.instagram.com/prakhar._singh/" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/prakhar-kumar-singh-b3304a20a" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
-
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+          <div class="col-lg-8">
+            <div class="section-title" style="text-align:left;">
+              <h2 style="margin-bottom:18px;">About</h2>
+              <p>
+                Experienced <strong>Machine Learning Engineer</strong> in pharmacovigilance, specializing in <strong>clinical NLP</strong> and <strong>automation</strong>. Skilled in dataset preparation, fine-tuning Longformer-based models, and developing tools with LLMs and computer vision to automate case intake and adverse event classification, achieving extraction accuracy up to <strong>99%</strong>.
+              </p>
+              <ul style="list-style:none; padding-left:0;">
+                <li><i class="bi bi-envelope"></i> <strong>Email:</strong> prakharsinghpersonal@gmail.com</li>
+                <li><i class="bi bi-phone"></i> <strong>Phone:</strong> +1-408-569-9394</li>
+                <li><i class="bi bi-geo-alt"></i> <strong>Location:</strong> San Jose, CA</li>
               </ul>
             </div>
-            <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Technical Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Technical Skills</h2>
+        </div>
+        <ul>
+          <li><strong>Programming:</strong> Python, SQL</li>
+          <li><strong>Databases:</strong> MySQL, Oracle Database, DynamoDB, Redis</li>
+          <li><strong>Machine Learning Tools:</strong> NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch, Hugging Face Transformers, BIO-Clinical-BERT, Longformer, Clinical-Longformer</li>
+          <li><strong>Frameworks and Tools:</strong> Git, Docker, Power BI, Tableau, UNIX/Linux, Argus Safety Systems, Gradio, LLMs (GPT-3.5, GPT-4, LLaMA 3, Mixtral, Anthropic), Computer Vision</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title"><h2>Resume</h2></div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Masters in Applied Data Science</h4>
+              <h5>Aug 2025 – Present</h5>
+              <p><em>San Jose State University, San Jose, CA</em></p>
+              <ul>
+                <li>Coursework: Data Warehouse and Pipeline, Machine Learning, Big Data Technologies, Deep Learning, Distributed Systems</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>B.Tech in Computer Science Engineering</h4>
+              <h5>Aug 2018 – Jun 2022</h5>
+              <p><em>KIET Group Of Institutions, Ghaziabad, India</em></p>
+              <ul>
+                <li>CGPA: 7.7</li>
+                <li>Coursework: Data Structures and Algorithms, Database Management Systems, Object Oriented Programming</li>
+              </ul>
             </div>
           </div>
-
+          <div class="col-lg-6">
+            <h3 class="resume-title">Experience</h3>
+            <div class="resume-item">
+              <h4>Consultant / Associate Consultant</h4>
+              <h5>Ultragenic Global (Feb 2022 – May 2025)</h5>
+              <ul>
+                <li>Cleaned, transformed, and performed EDA on i2b2 and CADEC clinical datasets in Hugging Face format for NLP model training.</li>
+                <li>Fine-tuned Longformer-based models for medical entity extraction and adverse event classification (80%+ accuracy).</li>
+                <li>Developed UltraIntake to process text, PDF, and image-based forms (multi-language), mapped output to MedDRA and WHO Drug Dictionary, enabled direct submission to Argus Safety Systems.</li>
+                <li>Leveraged GPT-3.5, GPT-4, LLaMA 3, Mixtral, Anthropic, and computer vision techniques, achieving up to 99% extraction accuracy with robust evaluation metrics.</li>
+              </ul>
+            </div>
+          </div>
         </div>
-
       </div>
-    </section><!-- End Portfolio Details Section -->
+    </section>
 
-  </main><!-- End #main -->
+    <!-- ======= Featured Project Section ======= -->
+    <section id="project" class="portfolio-details">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title"><h2>Featured Project</h2></div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="project-card">
+              <h3>Automated PSUR Generation — Agentic Workflow PoC</h3>
+              <ul>
+                <li><strong>Category:</strong> AI/ML Automation | Pharmacovigilance</li>
+                <li><strong>Date:</strong> May 2025</li>
+                <li><strong>Client:</strong> Confidential (Paid PoC)</li>
+                <li><strong>Tech Stack:</strong> Python, Pandas, SQL, Streamlit, AWS Bedrock (Claude Sonnet), AWS Lambda, boto3, pdfplumber,
+                  LangChain, JSON, Docker
+                </li>
+              </ul>
+              <h4>Summary</h4>
+              <ul>
+                <li>Automated Periodic Safety Update Report (PSUR) generation via agentic AI workflow powered by Claude Sonnet on AWS Bedrock, achieving 25% reduction in report generation time.</li>
+                <li>Developed specialized agents for spreadsheet analysis (Pandas DataFrame), database querying (SQL Agent), and domain-specific report writing.</li>
+                <li>Built Streamlit frontend with live status tracking and report downloads; deployed backend serverlessly on AWS Lambda for scalable execution.</li>
+                <li>Ensured robust data integrity and compliance across PDFs and spreadsheets.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+        <div class="info">
+          <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Location:</h4>
+            <p>San Jose, CA</p>
+          </div>
+          <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Email:</h4>
+            <p>prakharsinghpersonal@gmail.com</p>
+          </div>
+          <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4>Call:</h4>
+            <p>+1-408-569-9394</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <footer id="footer" style="background:#193c91; color:white; padding: 20px 0; text-align:center;">
+    <div class="container">
+      <h3>Prakhar Kumar Singh</h3>
+      <div class="social-links" style="margin-top:12px;">
+        <a href="https://www.instagram.com/prakhar._singh/" class="instagram" style="color:white;"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/prakhar-kumar-singh-b3304a20a" class="linkedin" style="color:white;"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
